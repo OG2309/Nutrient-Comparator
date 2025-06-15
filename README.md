@@ -17,13 +17,7 @@ Compare the **macronutrient profiles** of two foods in real-time using the USDA 
 
 ---
 
-## 📸 Screenshots
 
-| Bar Chart Comparison | Pie Chart View |
-|----------------------|----------------|
-| ![Bar Chart](https://via.placeholder.com/400x250?text=Bar+Chart) | ![Pie Chart](https://via.placeholder.com/400x250?text=Pie+Chart) |
-
-> *(Replace these links with actual images if deploying on GitHub)*
 
 ---
 
