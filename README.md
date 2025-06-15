@@ -17,13 +17,44 @@ Compare the **macronutrient profiles** of two foods in real-time using the USDA 
 
 ---
 
-
-
----
-
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+pip install streamlit requests pandas matplotlib seaborn
+🔑 Get a USDA API Key
+Sign up at: https://fdc.nal.usda.gov/api-key-signup.html
+
+Copy the key
+
+Open compare_foods_app.py and paste it:
+
+python
+Copy
+Edit
+API_KEY = "your key"
+
+
+🏃 Run the app
+bash
+Copy
+Edit
+streamlit run compare_foods_app.py
+The app will launch in your browser at http://localhost:8501.
+
+
+
+🧪 Example Inputs
+Try comparing:
+"Almond Butter" vs "Peanut Butter"
+"Oats" vs "Cornflakes"
+"Chicken Breast" vs "Paneer"
+
+
+
+🧠 What You'll See
+📊 Bar chart showing amounts of each macronutrient
+🥧 Pie charts for nutrient proportions per food
+💡 A Healthier Choice suggestion based on balance and totals
+
 
 ```bash
 git clone https://github.com/your-username/food-nutrient-comparator.git
